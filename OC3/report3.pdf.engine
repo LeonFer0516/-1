@@ -1,0 +1,39 @@
+<h1 id="цель-работы">Цель работы</h1>
+<p>Изучить идеологию и применение средств контроля версий.</p>
+<h1 id="задание">Задание</h1>
+<p>Сделайте отчёт по предыдущей лабораторной работе в формате Markdown.–В качестве отчёта просьба предоставить отчёты в 3 форматах:pdf,docxиmd(вархиве,поскольку он должен содержать скриншоты,Makefile ит.д.)</p>
+<h1 id="выполнение-лабораторной-работы">Выполнение лабораторной работы</h1>
+<p>Создайте учётную запись на https://github.com. (рис. <span class="citation" data-cites="fig:001">@fig:001</span>)</p>
+<figure>
+<img src="imagenes/1.png" alt="imagen 1" id="fig:001" style="width:70.0%" /><figcaption>imagen 1</figcaption>
+</figure>
+<p>Настроим систему контроля версий git. Поэтому во первых мы должны установить git на системе. Создаем наш репозиторий на Github.com (рис. <span class="citation" data-cites="fig:002">@fig:002</span>)</p>
+<figure>
+<img src="imagenes/2.png" alt="imagen 2" id="fig:002" style="width:70.0%" /><figcaption>imagen 2</figcaption>
+</figure>
+<p>Прежде создать наш локальный репозиторий, мы делаем предварительную конфигурацию, указав имя и email владельца репоитория, а на консоль пишем команд git congif –global user.name “leonjose” и git config –global user.email “fernandoleon833@gmail.com” (рис. <span class="citation" data-cites="fig:003">@fig:003</span>)</p>
+<figure>
+<img src="imagenes/3.png" alt="imagen 3" id="fig:003" style="width:70.0%" /><figcaption>imagen 3</figcaption>
+</figure>
+<p>После этого мы пишем код чтобы получить Key для последующей идентификации пользователя на сервере репозиториев, потом пишем код cat /home/Fernando/.ssh/id_rsa.pub чтобы показать key. (рис. <span class="citation" data-cites="fig:004">@fig:004</span>)</p>
+<figure>
+<img src="imagenes/4.png" alt="imagen 4" id="fig:004" style="width:70.0%" /><figcaption>imagen 4</figcaption>
+</figure>
+<p>Опять зайдем на Github.com и мы ввели код, который мы получили в разделе SSH and GPG Keys. Мы назначаем имя и код. (рис. <span class="citation" data-cites="fig:005">@fig:005</span>)</p>
+<figure>
+<img src="imagenes/5.png" alt="imagen 5" id="fig:005" style="width:70.0%" /><figcaption>imagen 5</figcaption>
+</figure>
+<p>Создаем каталоги по имени program/2020-2021/OS/laboratory и используем коды echo “# lab-2” &gt;&gt; README.md, git init, git add, git add README.md. (рис. <span class="citation" data-cites="fig:006">@fig:006</span>)</p>
+<figure>
+<img src="imagenes/6.png" alt="imagen 6" id="fig:006" style="width:70.0%" /><figcaption>imagen 6</figcaption>
+</figure>
+<p>После этого выкладываем на Gibhub. (рис. <span class="citation" data-cites="fig:007">@fig:007</span>)</p>
+<figure>
+<img src="imagenes/7.png" alt="imagen 7" id="fig:007" style="width:70.0%" /><figcaption>imagen 7</figcaption>
+</figure>
+<p>Добавим файл лицензии, шаблон игнорируемых файлов, новые файлы и выполним коммит и отправим на github. (рис. <span class="citation" data-cites="fig:008">@fig:008</span>) (рис. <span class="citation" data-cites="fig:009">@fig:009</span>)</p>
+<p><img src="imagenes/8.png" alt="imagen 8" id="fig:008" style="width:70.0%" /> <img src="imagenes/9.png" alt="imagen 9" id="fig:009" style="width:70.0%" /></p>
+<p>А теперь начинаем с конфигурацией git flow и инициализируем, проверяем если мы на ветке develop, запишем версию, добавим индекс, зальём реализую ветку в основную ветку и отправим данные на git.hub. (рис. <span class="citation" data-cites="fig:0010">@fig:0010</span>) (рис. <span class="citation" data-cites="fig:0011">@fig:0011</span>)</p>
+<p><img src="imagenes/10.png" alt="imagen 10" id="fig:0010" style="width:70.0%" /> <img src="imagenes/11.png" alt="imagen 11" id="fig:0011" style="width:70.0%" /></p>
+<h1 id="выводы">Выводы</h1>
+<p>В ходе данной работы я научился о системе контроль версий и как можем работать с сервером Github.com, из того же образом я узнал, как создать локальный репозиторий и как связать его с сервером.</p>
